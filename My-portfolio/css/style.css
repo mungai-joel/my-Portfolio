@@ -1,3 +1,42 @@
 body{
-    
+    background-color: black;
+}
+.image{
+    float: right,top;
+    width: auto;
+    height: 19px;
+}
+.intro {
+    font-size: 2em;
+    color: #48a4e0;
+}
+.heading {
+    border-bottom-color: #48a4e0;
+    border-bottom-style: solid;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #48a4e0;
+}
+.social > li {
+    display: inline-block;
+    margin: 0, 5px;
+}
+.first{
+    background-image: url(https://hdwallsource.com/img/2019/8/apex-legends-logo-wallpaper-67151-69449-hd-wallpapers.jpg);
+    width: 100%;
+    height: 2.0%;
+    background-position: center;
+
+
+}
+.middle{
+        background-image:url(https://hdwallsource.com/img/2019/8/apex-legends-mirage-wallpaper-67142-69440-hd-wallpapers.jpg);
+        width: auto;
+        height: auto;
+        background-position: top;
+}
+.bottom{
+    background-image:url(https://hdwallsource.com/img/2019/2/apex-legends-pathfinder-desktop-wallpaper-67036-69332-hd-wallpapers.jpg);
 }
