@@ -29,6 +29,7 @@ body {
     top: 0;
     left: 0;
     background-color:white;
+    align-items: center;
     width: 100%;
     height: 100vh;
     opacity: 0.6;
@@ -73,4 +74,9 @@ body {
 .bottom {
     background-image:url(https://hdwallsource.com/img/2019/2/apex-legends-pathfinder-desktop-wallpaper-67036-69332-hd-wallpapers.jpg);
     display: flex;
+}
+@media screen and (min-width: 500px) {
+    .heading {
+        float: left;
+    }
 }
