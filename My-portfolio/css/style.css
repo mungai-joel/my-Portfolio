@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(2, 10, 37);
 }
 .video {
     object-position: center;
@@ -34,10 +34,10 @@ body {
     height: 100vh;
     opacity: 0.6;
 }
-.path{
-    width: 30%;
-    height: 30%;
+.path {
+    max-width: 100%;
     display: flex;
+    
 }
 .intro {
     font-size: 2em;
@@ -45,12 +45,13 @@ body {
 }
 .heading {
     border-bottom-color: #48a4e0;
-    border-bottom-style: solid;
+    border-bottom-style: double;
     font-weight: bold;
     font-size: 6em;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.002em;
     text-transform: uppercase;
     color: #0e5dd4;
+    align-self: auto;
 }
 .social > li {
     display: inline-block;
@@ -70,13 +71,25 @@ body {
         width: auto;
         height: auto;
         background-position: top;
+        text-align: center;
+
+}
+.list {
+    display: flex;
+
+}
+.paragraph {
+    color:#48a4e0;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
 }
 .bottom {
     background-image:url(https://hdwallsource.com/img/2019/2/apex-legends-pathfinder-desktop-wallpaper-67036-69332-hd-wallpapers.jpg);
-    display: flex;
 }
-@media screen and (min-width: 500px) {
+/*@media screen and (min-width: 280px) {
     .heading {
         float: left;
     }
-}
+}*/
