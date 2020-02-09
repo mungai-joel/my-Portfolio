@@ -1,0 +1,13 @@
+img{
+    float: right;
+}
+.sidebar {
+    width: 25%;
+    float: right;
+    background-color: #ffc400;
+    font-style: italic;
+    font-size: small;
+
+}
+  
+
