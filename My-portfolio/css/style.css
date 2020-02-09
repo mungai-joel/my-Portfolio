@@ -16,6 +16,8 @@ body {
     font-size: 6rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     z-index: 2;
+    text-transform: uppercase;
+    
 }
 .video-container {
     position: absolute;
@@ -38,6 +40,10 @@ body {
     max-width: 100%;
     display: flex;
     
+}
+h1 {
+    text-align: center;
+    display: flex;
 }
 .intro {
     font-size: 2em;
@@ -63,6 +69,7 @@ body {
     height: 2.0%;
     background-position: center;
     display: flex;
+    margin: 0 auto;
 
 
 }
@@ -72,7 +79,7 @@ body {
         height: auto;
         background-position: top;
         text-align: center;
-
+           
 }
 .list {
     display: flex;
@@ -87,6 +94,8 @@ body {
 }
 .bottom {
     background-image:url(https://hdwallsource.com/img/2019/2/apex-legends-pathfinder-desktop-wallpaper-67036-69332-hd-wallpapers.jpg);
+    text-align: right;
+    font-size: x-large;
 }
 /*@media screen and (min-width: 280px) {
     .heading {
